@@ -59,6 +59,7 @@ a {
     bottom: 0;
     right: 0;
     text-align: center;
+    z-index: 500;
 }
 
 #accept:hover {
@@ -81,12 +82,14 @@ a {
     bottom: 0;
     background-color: #000;
     margin: auto;
+    z-index: 400;
 }
 
 .challenge > h1 {
     color: white;
     visibility: hidden;
     cursor: pointer;
+    z-index: 401;
 }
 
 .challenge:hover > h1 {
