@@ -1,11 +1,19 @@
 /* Primary stylesheet for spectralvulpine.com */
 
+/* Primary color scheme:
+#0A110D - Smoky black
+#474747 - Outer space
+#A7A2A9 - Quicksilver
+#5E0E0D - Rosewood
+#902923 - Vivid auburn
+ */
+
 /* Google Fonts stuff */
 
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Share+Tech');
 
 body {
-    background-color: #333;
+    background-color: #474747;
     margin: 0;
 }
 
@@ -20,12 +28,12 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #fff;
-    font-family: Arial, sans-serif;
+    color: #A7A2A9;
+    font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
 }
 
 a {
-    color: #fff;
+    color: #A7A2A9;
     width: 300px;
     margin: auto;
     text-align: center;
@@ -54,7 +62,7 @@ nav li {
 /* Title bar */
 
 header {
-    background: #000;
+    background: #0A100D;
     margin-top: 0;
     padding: 20px;
 }
@@ -62,6 +70,6 @@ header {
 #title {
     font-size: 46px;
     font-family: "Audiowide", "Consolas", "Agency FB", sans-serif;
-    color: #fff;
+    color: #A7A2A9;
     text-align: center;
 }
