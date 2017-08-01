@@ -1,0 +1,14 @@
+.inLineLogo {
+    display: inline;
+    margin: 2px;
+}
+
+#DeviantArtLogo {
+    height: 20px;
+    width: 12px;
+}
+
+#GitHubLogo {
+    height: 20px;
+    width: 20px;
+}

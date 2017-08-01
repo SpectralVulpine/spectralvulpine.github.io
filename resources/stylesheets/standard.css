@@ -47,11 +47,22 @@ ul {
 }
 
 li {
+    color: #A7A2A9;
     text-align: center;
+    font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
+}
+
+li a {
+    display: inline;
+    margin: 2px auto;
 }
 
 a.lightBackgroundLink {
     color: #5E0E0D;
+}
+
+.center {
+    text-align: center;
 }
 
 /* Navigation bar */
@@ -74,8 +85,8 @@ nav ul {
 nav li {
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 200px;
     text-align: center;
+    width: 200px;
 }
 
 /* Title bar */
@@ -87,20 +98,26 @@ header {
 }
 
 #title {
-    font-size: 46px;
-    font-family: "Audiowide", "Consolas", "Agency FB", sans-serif;
     color: #A7A2A9;
+    font-family: "Audiowide", "Consolas", "Agency FB", sans-serif;
+    font-size: 46px;
     text-align: center;
 }
 
 /* Paragraph stuff */
 
+dfn {
+    text-decoration-color: inherit;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
 p {
     color: #A7A2A9;
-    max-width: 800px;
-    margin: auto;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
     font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
 }
 
 .paraLink {
