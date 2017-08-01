@@ -30,33 +30,52 @@ h2 {
     text-align: center;
     color: #A7A2A9;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
+    font-size: 1.8em;
 }
 
 a {
-    color: #A7A2A9;
-    width: 300px;
-    margin: auto;
+    color: #902923;
     text-align: center;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
     font-size: 24px;
     display: block;
 }
 
+ul {
+    list-style: none inside;
+    padding-left: 0;
+}
+
+li {
+    text-align: center;
+}
+
+a.lightBackgroundLink {
+    color: #5E0E0D;
+}
+
 /* Navigation bar */
 nav {
     margin: 0 auto;
-    width: 300px;
-    display: none;
+    max-width: 800px;
+    /*display: none;*/
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none inside;
+    padding: 0;
+    margin: 0;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
 }
 
 nav li {
-    display: flex;
-    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    text-align: center;
 }
 
 /* Title bar */
@@ -72,4 +91,20 @@ header {
     font-family: "Audiowide", "Consolas", "Agency FB", sans-serif;
     color: #A7A2A9;
     text-align: center;
+}
+
+/* Paragraph stuff */
+
+p {
+    color: #A7A2A9;
+    max-width: 800px;
+    margin: auto;
+    font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.paraLink {
+    color: #AFAFAF;
+    display: inline;
+    font-size: inherit;
 }
