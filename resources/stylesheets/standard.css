@@ -58,7 +58,7 @@ li a {
 }
 
 a.lightBackgroundLink {
-    color: #5E0E0D;
+    color: #D02923;
 }
 
 .center {
@@ -73,12 +73,13 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
     list-style: none inside;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: row;
+    transition-duration: 400ms;
     width: 800px;
 }
 
@@ -86,13 +87,31 @@ nav li {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+    transition-duration: 400ms;
     width: 200px;
+}
+
+nav li a {
+    color: #902923;
+    text-decoration: none;
+}
+
+nav li:hover {
+    transition-duration: 400ms;
+    background-color: #902923;
+}
+
+nav li:hover a {
+    transition-duration: 400ms;
+    color: #000;
+    text-decoration: underline;
 }
 
 /* Title bar */
 
 header {
     background: #0A100D;
+    margin-bottom: 20px;
     margin-top: 0;
     padding: 20px;
 }
@@ -100,7 +119,7 @@ header {
 #title {
     color: #A7A2A9;
     font-family: "Audiowide", "Consolas", "Agency FB", sans-serif;
-    font-size: 46px;
+    font-size: 2.4em;
     text-align: center;
 }
 
@@ -124,4 +143,42 @@ p {
     color: #AFAFAF;
     display: inline;
     font-size: inherit;
+}
+
+/* Special formatting */
+
+.dossier {
+    font-family: "Courier New", monospace;
+    max-width: 800px;
+    margin: auto;
+    color: #000;
+}
+
+.dossier li {
+    font-family: "Courier New", monospace;
+    list-style-type: circle;
+    text-align: left;
+    margin: 3px;
+    color: inherit;
+}
+
+.dossier p {
+    font-family: "Courier New", monospace;
+    font-size: 1em;
+    padding-left: 20px;
+    color: inherit;
+}
+
+article.dossier {
+    background-image: url("../../resources/images/backgrounds/top_secret_background.jpg");
+    border: 2px solid #111;
+    padding: 10px;
+}
+
+h2.dossier {
+    margin-bottom: 30px;
+}
+
+.dossCategory {
+    text-transform: uppercase;
 }
