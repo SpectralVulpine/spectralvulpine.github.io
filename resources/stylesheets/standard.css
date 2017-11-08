@@ -28,13 +28,13 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #A7A2A9;
+    color: #FFF;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
     font-size: 1.8em;
 }
 
 a {
-    color: #902923;
+    color: #A0A0A0;
     text-align: center;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
     font-size: 24px;
@@ -47,7 +47,7 @@ ul {
 }
 
 li {
-    color: #A7A2A9;
+    color: #FFF;
     text-align: center;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
 }
@@ -58,7 +58,7 @@ li a {
 }
 
 a.lightBackgroundLink {
-    color: #D02923;
+    color: #AFAFAF;
 }
 
 .center {
@@ -132,7 +132,7 @@ dfn {
 }
 
 p {
-    color: #A7A2A9;
+    color: #FFF;
     font-family: "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
     font-size: 1.2em;
     max-width: 800px;
@@ -143,6 +143,14 @@ p {
     color: #AFAFAF;
     display: inline;
     font-size: inherit;
+}
+
+.hidden {
+    display: none;
+}
+
+#pageTitle {
+    font-size: 2em;
 }
 
 /* Special formatting */
