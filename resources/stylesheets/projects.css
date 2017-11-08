@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Mistral;
+    src: url('../../resources/fonts/Mistral.ttf');
+}
+
 .project {
     width: 960px;
     margin: 10px auto;
@@ -33,4 +38,10 @@
 
 .project p {
     color: #0A100D;
+}
+
+#wasteland_title {
+    font-family: Mistral, "Share Tech", "Consolas", "Agency FB", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
 }
