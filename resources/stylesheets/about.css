@@ -1,0 +1,46 @@
+/*
+About-specific formatting
+Mostly specific to the dossier.
+*/
+
+table {
+    font-family: "Courier New", monospace;
+    max-width: 800px;
+    margin: auto;
+    color: #000;
+}
+
+table p {
+    font-family: inherit;
+    font-size: 1em;
+    padding-left: 20px;
+    color: inherit;
+}
+
+thead td {
+    border-bottom: 2px dashed #72674F;
+}
+
+thead h2 {
+    font-size: 2em;
+    color: inherit;
+    font-family: inherit;
+    margin: inherit;
+    text-align: center;
+}
+
+tbody td:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-right: 1px dashed #72674F;
+}
+
+.dossier {
+    font-family: "Courier New", monospace;
+    max-width: 800px;
+    margin: auto;
+    color: #000;
+    background-image: url("../../resources/images/backgrounds/top_secret_background.jpg");
+    border: 2px solid #111;
+    padding: 10px;
+}
