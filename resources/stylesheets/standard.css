@@ -57,19 +57,36 @@ li a {
     margin: 2px auto;
 }
 
+iframe {
+    max-width: 150px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEE;
+    border-radius: 2px;
+}
+
 a.lightBackgroundLink {
     color: #AFAFAF;
+}
+
+a.darkBackgroundLink {
+    color: #555;
 }
 
 .center {
     text-align: center;
 }
 
+.certifications {
+    text-align: center;
+}
+
 /* Navigation bar */
+/*
 nav {
     margin: 0 auto;
     max-width: 800px;
-    /*display: none;*/
 }
 
 nav ul {
@@ -106,7 +123,7 @@ nav li:hover a {
     color: #000;
     text-decoration: underline;
 }
-
+*/
 /* Title bar */
 
 header {
